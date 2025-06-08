@@ -289,9 +289,13 @@
 </head>
 <body>
   <header>
-    <img src="logo.png" alt="Nest & Naps Travel Logo" style="max-height: 80px; margin-bottom: 16px;" />
-    <h1>Nest & Naps Travel</h1>
-    <p>Your Family’s Cozy Corner on the Road</p>
+    <div style="display: flex; align-items: center; justify-content: center; gap: 16px; flex-wrap: wrap;">
+    <img src="logo.png" alt="Nest & Naps Travel Logo" style="height: 60px;" />
+    <div>
+      <h1 style="margin-bottom: 0;">Nest & Naps Travel</h1>
+      <p>Your Family’s Cozy Corner on the Road</p>
+    </div>
+  </div>
     <form class="search-form" action="#" method="GET" onsubmit="alert('Search feature coming soon!'); return false;">
       <input type="text" name="destination" placeholder="Enter destination" required />
       <select name="travelers" aria-label="Number of travelers">
